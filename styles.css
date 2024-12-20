@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.avatar {
+    width: 150px;
+  
+    border-radius : 70px; 
+    border: 1px solid #002500
+    
+}
+
+.card {
+    width: 400px;
+    /* 
+    Challenge:
+    Replace the two margin properties with a 
+    single margin shorthand.
+    */
+    margin:0px  auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #8d9ec6;
+    color: #2b2839;
+    border-bottom: 12px solid #402039;
+    border-radius : 70px; 
+}
+
+
+}
